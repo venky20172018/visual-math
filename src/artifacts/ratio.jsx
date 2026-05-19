@@ -52,7 +52,7 @@ const RatioVisualizationTool = () => {
           strokeDasharray={bStrokeDasharray}
           strokeDashoffset={-circumference * ratio.a / (ratio.a + ratio.b)}
         />
-        <text x={center} y={center} textAnchor="middle" dy=".3em" fontSize="20" fontWeight="bold">
+        <text x={center} y={center} textAnchor="middle" dy=".3em" fontSize="20" fontWeight="bold" fill="#18181b">
           {ratio.a + ratio.b}
         </text>
       </svg>
@@ -60,7 +60,7 @@ const RatioVisualizationTool = () => {
   };
 
   return (
-    <div className="p-4 max-w-xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+    <div className="p-4 max-w-xl mx-auto bg-white text-zinc-900 rounded-xl shadow-md overflow-hidden">
       <h2 className="text-2xl font-bold mb-4 text-center">Interactive Ratio Visualization</h2>
       
       <div className="mb-2 flex items-center justify-center space-x-4">
