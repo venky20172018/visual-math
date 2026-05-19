@@ -5,7 +5,7 @@ import { Alert, AlertTitle, AlertDescription } from '@/components/ui/alert';
 import { PieChart, Pie, Cell, ResponsiveContainer, Label } from 'recharts';
 
 const ProportionalityVisualAndCalculator = () => {
-  const [values, setValues] = useState({ a: '', b: '', c: '', d: '' });
+  const [values, setValues] = useState({ a: '1', b: '1', c: '1', d: '4' });
   const [result, setResult] = useState(null);
 
   const handleInputChange = (e) => {
