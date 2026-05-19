@@ -11,7 +11,7 @@ const KeplerMasterTool = () => {
   const A = 180; 
 
   // --- Animation State ---
-  const [isPaused, setIsPaused] = useState(true);
+  const [isPaused, setIsPaused] = useState(false);
   const [rotation, setRotation] = useState(0);
   const [simSpeed, setSimSpeed] = useState(0.5);
   const requestRef = useRef();
