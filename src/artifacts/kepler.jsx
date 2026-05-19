@@ -27,7 +27,7 @@ const KeplerMasterTool = () => {
   ];
   const [selectedPlanet, setSelectedPlanet] = useState(planets[2]);
   const [userFocalDist, setUserFocalDist] = useState(0);
-  const [showReality, setShowReality] = useState(false);
+  const [showReality, setShowReality] = useState(true);
 
   // --- Law 2 State ---
   const [l2Ecc, setL2Ecc] = useState(0.5);
