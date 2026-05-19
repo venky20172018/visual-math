@@ -79,7 +79,7 @@ const HCFVisualization = () => {
     return (
       <div 
         key={factor} 
-        className={`${bgColor} m-1 p-2 text-center rounded`}
+        className={`${bgColor} m-1 p-2 text-center text-black font-semibold rounded`}
         style={{ width: `${factor * 3}px`, height: '30px', minWidth: '30px' }}
       >
         {factor}
