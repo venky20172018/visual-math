@@ -9,6 +9,14 @@ import { lazy } from 'react'
 
 export const artifacts = [
   {
+    slug: 'kepler',
+    title: "Kepler's Laws",
+    description: 'Interactive demonstration of all three of Kepler\'s laws of planetary motion.',
+    tags: ['physics', 'astronomy', 'animation'],
+    accent: 'from-violet-500 to-indigo-600',
+    component: lazy(() => import('./kepler.jsx')),
+  },
+  {
     slug: 'algebraic-expression-visualizer',
     title: 'Algebraic Expression Visualizer',
     description: 'Evaluate up to four algebraic expressions at a given x and chart the results.',
@@ -47,14 +55,6 @@ export const artifacts = [
     tags: ['math', 'ratios'],
     accent: 'from-fuchsia-500 to-purple-500',
     component: lazy(() => import('./proportionality.jsx')),
-  },
-  {
-    slug: 'kepler',
-    title: "Kepler's Laws",
-    description: 'Interactive demonstration of all three of Kepler\'s laws of planetary motion.',
-    tags: ['physics', 'astronomy', 'animation'],
-    accent: 'from-violet-500 to-indigo-600',
-    component: lazy(() => import('./kepler.jsx')),
   },
   {
     slug: 'youngs-modulus',
